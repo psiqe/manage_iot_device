@@ -1,6 +1,6 @@
 import { Express } from "express";
-import { HelloRoutes } from "./helloWord.routes";
+import { DeviceRoutes } from "./device.routes";
 
 export const appRoutes = (app: Express) => {
-    app.use("/", HelloRoutes());
+    app.use("/", DeviceRoutes());
 };
