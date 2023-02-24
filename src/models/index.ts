@@ -36,18 +36,3 @@ const DeviceSchema = new Schema({
 const DeviceModel = mongoose.model('device', DeviceSchema);
 
 export default DeviceModel;
-
-
-
-
-  // validate: {
-  //     validator: function(val: any) {
-  //       for (let key in val) {
-  //         if (!val[key].name && !val[key].value && !val[key].unity) {
-  //           return false;
-  //         }
-  //       }
-  //       return true;
-  //     },
-  //     message: (props: { path: string }) => `${props.path} is not in a valid format.`
-  // }
