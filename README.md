@@ -58,6 +58,6 @@ Desafio Back-End. API Rest desenvolvida em TypeScript com storage em MongoDB, ut
 
 [![Gmail](https://img.shields.io/badge/Gmail-D82007?style=for-the-badge&logo=Gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&to=mmiguel.skn@gmail.com)
 [![Linkedin](	https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murillomigu/)
-[![Whats App](	https://img.shields.io/badge/WhatsApp-1C942E?style=for-the-badge&logo=WhatsApp&logoColor=white)](hhttps://api.whatsapp.com/send?phone=1692473065)
+[![Whats App](	https://img.shields.io/badge/WhatsApp-1C942E?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://api.whatsapp.com/send?phone=1692473065)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_psiqe/?next=%2F)
 
