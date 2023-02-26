@@ -12,7 +12,11 @@
     "servers": [
         {
             "url": "http://localhost:3333/",
-            "test": "API de teste técnico"
+            "test": "URL local"
+        },
+        {
+            "url": "https://api-manage-device.onrender.com/",
+            "test": "URL deploy"
         }
     ],
     "paths": {
