@@ -1,12 +1,14 @@
 <h1>Gerenciamento de IoT</h1>
 <div>
-<h2>
-    <a href="">  
-        Ver Documentação
-    </a>
-</h2>
-    <img href="" src="">
+    <h2>
+        <a href="https://api-manage-device.onrender.com/api-docs/">  
+            Ver Documentação
+        </a>
+    </h2>
 </div>
+<h3> Requisições via Insomnia </h3>
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=API%20Manage%20Device&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fpsiqe%2Fmanage_iot_device%2Fdevelop%2Finsomnia.json%3Ftoken%3DGHSAT0AAAAAAB5U7S5QK7CNS7D4GFZOP4WEY73LZCQ)
 
 
 ## 📕 About
@@ -41,13 +43,13 @@ Desafio Back-End. API Rest desenvolvida em TypeScript com storage em MongoDB, ut
     # OBS: Esses comando são pelo Linux, talvez tenha alteração para outras ISOs
     $ touch .env
     $ cat .env.example > .env
+
 ```
 ```bash
     # Rodando API com yarn
     $ yarn dev
 ```
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=API%20Manage%20Device&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fpsiqe%2Fmanage_iot_device%2Fdevelop%2Finsomnia.json%3Ftoken%3DGHSAT0AAAAAAB5U7S5QK7CNS7D4GFZOP4WEY73LZCQ)
 
 ## 📋 Licence
     This project uses the MIT license. See the LICENSE file for more details.

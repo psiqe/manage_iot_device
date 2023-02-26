@@ -3,7 +3,8 @@ import 'dotenv/config';
 
 
 const pwd = process.env.mongo_pwd
-const mongo_pwd = encodeURIComponent(pwd || '')
+const pwdDeploy = "Gn7AyuemFh0JCZfr"
+const mongo_pwd = encodeURIComponent(pwdDeploy || '')
 
 mongoose.set('strictQuery', false); // Desativa a verificação estrita de consulta
 async function startMongoDB() {
