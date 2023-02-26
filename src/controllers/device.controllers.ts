@@ -12,13 +12,13 @@ class DeviceController {
     async listedAll(req:Request, res:Response): Promise<Response>{
         const listedAllDevices = await DeviceModel.find();
 
-        return res.status(201).json(listedAllDevices)
+        return res.status(200).json(listedAllDevices)
     }
 
     async listedOne(req:Request, res: Response): Promise<Response>{
         const { id } = req.params
         const listedOneDevice = await DeviceModel.findOne({"_id":id})
-        if(!listedOneDevice){ throw new AppError("Device not found!") }
+        if(!listedOneDevice){ throw new AppError(404, "Device not found!") }
 
         return res.status(200).json(listedOneDevice)
     }
@@ -28,16 +28,16 @@ class DeviceController {
         
         const listedOneDevice = await DeviceModel.findOne({"_id":id})
         
-        if(!listedOneDevice){ throw new AppError("Device not found!") }
+        if(!listedOneDevice){ throw new AppError(404, "Device not found!") }
         const updatedDevice = await DeviceModel.updateOne({"_id":id},  {$set: {...req.body}} )
 
-        return res.status(201).json(updatedDevice)  
+        return res.status(200).json(updatedDevice)  
     }
 
     async deleted(req:Request, res:Response){
         const { id } = req.params
         const listedOneDevice = await DeviceModel.findOne({"_id":id})
-        if(!listedOneDevice){ throw new AppError("Device not found!") }
+        if(!listedOneDevice){ throw new AppError(404, "Device not found!") }
         const deletedDevice = await DeviceModel.deleteOne({"_id":id})
 
         return res.status(204).json(deletedDevice)  

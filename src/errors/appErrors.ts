@@ -3,9 +3,8 @@ import { Error } from "mongoose";
 class AppError extends Error {
     statusCode: number;
   
-    constructor(message: string, statusCode: number = 400) {
+    constructor(statusCode: number = 400, message: string) {
       super(message);
-      // this.message = message
       this.statusCode = statusCode;
     }
   }
