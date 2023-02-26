@@ -47,6 +47,8 @@ Desafio Back-End. API Rest desenvolvida em TypeScript com storage em MongoDB, ut
     $ yarn dev
 ```
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=API%20Manage%20Device&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fpsiqe%2Fmanage_iot_device%2Fdevelop%2Finsomnia.json%3Ftoken%3DGHSAT0AAAAAAB5U7S5QK7CNS7D4GFZOP4WEY73LZCQ)
+
 ## 📋 Licence
     This project uses the MIT license. See the LICENSE file for more details.
 
